@@ -37,21 +37,18 @@ function AboutPage() {
       <StatsStrip />
       <section className="bg-background py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="max-w-4xl space-y-5 text-base leading-relaxed text-muted-foreground sm:text-lg">
-            <p>
-              Neural Soft Limited is a leading software solutions company dedicated to helping businesses accelerate their digital transformation through innovative, scalable, and secure technology. We combine deep technical expertise with a customer-centric approach to develop solutions that solve complex business challenges and drive sustainable growth.
-            </p>
+          <div className="font-sans max-w-4xl space-y-5 text-base leading-relaxed text-muted-foreground sm:text-lg">
             <p>
               With a strong focus on quality, innovation, and long-term partnerships, we work closely with clients to understand their unique requirements and deliver technology solutions that are reliable, scalable, and future-ready. Our experienced team follows industry best practices and agile methodologies to ensure timely delivery, exceptional user experiences, and measurable business value.
             </p>
           </div>
           <div className="mt-16 grid gap-12 lg:grid-cols-2">
-            <div>
-              <h2 className="text-3xl font-bold text-foreground">Our mission</h2>
+            <div className="font-sans">
+              <h2 className="font-display text-3xl font-bold text-foreground">Our mission</h2>
               <p className="mt-4 text-muted-foreground">
                 To empower businesses with innovative, reliable, and scalable software solutions that accelerate digital transformation and drive sustainable growth.
               </p>
-              <h2 className="mt-10 text-3xl font-bold text-foreground">How we work</h2>
+              <h2 className="font-display mt-10 text-3xl font-bold text-foreground">How we work</h2>
               <p className="mt-4 text-muted-foreground">
                 We collaborate closely with our clients, combining agile development, technical excellence, and industry best practices to deliver high-quality solutions tailored to their business needs.
               </p>
